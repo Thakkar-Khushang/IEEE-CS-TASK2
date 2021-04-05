@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+           body
+           {  
+            padding: 0px;
+            font-family: 'Lato', sans-serif;
+            background-color: rgb(201, 222, 250);
+           } 
+           .hWrapper{
+               padding:0px;
+               margin:0px;
+               display:flex;
+               flex-direction:row;
+                justify-content: center;
+           }
+           .Heading{
+            margin:0px;
+            width: 17rem;
+            display: flex;
+           }
+
+           .box h1
+           {
+            color:black;
+            margin-top: 20px;
+           }
+           .box h4
+           {
+            color:black;
+            font-size: larger;
+            padding:2rem
+           }
+
+           .Heading h1
+           {
+            transition: 0.5s all ease-in-out;
+            color: white;
+            margin-top:2rem;
+            text-shadow:2px 2px 5px rgb(122, 122, 122);
+            text-shadow:-2px -2px 5px rgb(122, 122, 122);
+           }
+
+           .Heading h1:hover{
+            transform: scale(1.08);
+            justify-content: center;
+        }
+
+           .box
+           {
+            margin-top: 7%;
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+           }
+           .Lin h1{
+               color: black;
+           }
+           .Lin
+           {
+            color:black;
+            background-color: white;
+            text-align: center;
+            border-radius: 5%;
+            box-shadow:0px 0px 60px 10px rgb(207, 207, 206);
+            width: 17rem;
+            height: 23rem;
+             padding: 2%;
+             margin: auto;
+             transition: 0.5s all ease-in-out;
+           }
+           .Lin:hover
+           {
+            transform: scale(1.08);
+            justify-content: center;
+            box-shadow: 0px 0px 50px 30px rgb(247, 247, 247);
+            color:white !important;
+            
+           }
+           .Lin img
+           {
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            max-width: 60%;
+            max-height: 60%;
+            border-radius: 20%;
+            transition: 0.5s all ease-in-out;
+           }
+           .Lin img:hover
+           {
+            transform: scale(1.09);
+           }
+           .Ghub
+           {
+            color:black;
+            background-color: white;
+            text-align: center;
+            border-radius: 5%;
+            box-shadow:0px 0px 60px 10px rgb(207, 207, 206);
+            width: 17rem;
+            height: 23rem;
+             padding: 2%;
+             margin: auto;
+             transition: 0.5s all ease-in-out;
+           }
+           .Ghub:hover{
+            transform: scale(1.08);
+            justify-content: center;
+            box-shadow: 0px 0px 50px 30px rgb(247, 247, 247);
+           }
+           .Ghub img
+           {
+            margin-bottom: 1.7rem;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            max-width: 60%;
+            max-height: 60%;
+            border-radius: 20%;
+            transition: 0.5s all ease-in-out;
+           }
+           .Ghub img:hover{
+            transform: scale(1.09);
+           }
+
+           .Igram  
+           {
+            background-color: white;
+            text-align: center;
+            border-radius: 5%;
+            box-shadow:0px 0px 60px 10px rgb(207, 207, 206);
+            width: 17rem;
+            height: 23rem;
+             padding: 2%;
+             margin: auto;
+             transition: 0.5s all ease-in-out;
+       
+           }
+           .Igram:hover
+           {
+            transform: scale(1.08);
+            justify-content: center;
+            box-shadow: 0px 0px 50px 30px rgb(247, 247, 247);
+           }
+           
+           .Igram img
+           {
+            margin-bottom: 1.0rem;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            max-width: 60%;
+            max-height: 60%;
+            border-radius: 15%;
+            transition: 0.5s all ease-in-out;
+           }
+           .Igram img:hover
+           {
+            transform: scale(1.09);
+           }
+           
+           @media all and (max-width:1100px)
+           {
+            body
+           { 
+            margin-top: 0;
+            padding: 18%;
+           } 
+            .box
+           { 
+            margin-top: 8%;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+           }
+           .Lin
+           {
+            max-width: 80%;
+            max-height: 80%;
+            padding: 2%;
+            margin-bottom: 12%;
+            margin-top: 0%;
+            
+           }
+           .Ghub  
+           {
+            max-width: 80%;
+            max-height: 60%;
+            padding: 2%;
+            margin-bottom: 12%;
+            margin-top: 1%;
+           }
+           .Igram  
+           {
+            max-width: 80%;
+            max-height: 60%;
+            padding: 2%;
+            margin-bottom: 12%;
+            margin-top: 12%;
+            
+           }
+           }
+
+           
