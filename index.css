@@ -175,8 +175,8 @@
            }
            .Lin
            {
-            max-width: 80%;
-            max-height: 80%;
+            max-width: 90%;
+            max-height: 60%;
             padding: 2%;
             margin-bottom: 12%;
             margin-top: 0%;
@@ -184,7 +184,7 @@
            }
            .Ghub  
            {
-            max-width: 80%;
+            max-width: 90%;
             max-height: 60%;
             padding: 2%;
             margin-bottom: 12%;
@@ -192,7 +192,7 @@
            }
            .Igram  
            {
-            max-width: 80%;
+            max-width: 90%;
             max-height: 60%;
             padding: 2%;
             margin-bottom: 12%;
