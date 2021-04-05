@@ -22,18 +22,6 @@
             display: flex;
            }
 
-           .box h1
-           {
-            color:black;
-            margin-top: 20px;
-           }
-           .box h4
-           {
-            color:black;
-            font-size: larger;
-            padding:2rem
-           }
-
            .Heading h1
            {
             transition: 0.5s all ease-in-out;
@@ -55,6 +43,17 @@
             flex-direction: row;
             justify-content:center;
            }
+           .box h1
+           {
+            color:black;
+            margin-top: 20px;
+           }
+           .box h3
+           {
+            color:black;
+            padding:2rem
+           }
+
            .Lin h1{
                color: black;
            }
@@ -175,7 +174,7 @@
            }
            .Lin
            {
-            max-width: 80%;
+            max-width: 99%;
             max-height: 80%;
             padding: 2%;
             margin-bottom: 12%;
@@ -184,7 +183,7 @@
            }
            .Ghub  
            {
-            max-width: 80%;
+            max-width: 99%;
             max-height: 60%;
             padding: 2%;
             margin-bottom: 12%;
@@ -192,7 +191,7 @@
            }
            .Igram  
            {
-            max-width: 80%;
+            max-width: 99%;
             max-height: 60%;
             padding: 2%;
             margin-bottom: 12%;
